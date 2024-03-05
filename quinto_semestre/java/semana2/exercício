@@ -1,0 +1,8 @@
+1. Escrever a classe Pessoa contendo nome e idade e o método
+Imprime que imprime na Console os dados da Pessoa.
+2. Escrever a classe TestaPessoa, que contem o método main,
+onde serão criadas 3 pessoas: a Ana Souza com 31 anos, a Bia
+Nunes com 25 anos e o Paulo Santos com 45 anos.
+3. Dentro do main usar o método Imprime para mostrar na
+console as informações das 3 pessoas criadas em tempo de
+execução.
