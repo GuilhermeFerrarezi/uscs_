@@ -5,7 +5,7 @@ public class Empregado {
 	String nome;
 	String cargo;
 	double salario;
-	static int qtd;
+	static int qtd = 0;
 	
 	Empregado(int cod, String nome, String cargo, double salario){
 		this.cod = cod;
