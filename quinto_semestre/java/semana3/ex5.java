@@ -15,6 +15,10 @@ public class Empregado {
 		this.salario = salario;
 		AddEmpregado();
 	}
+
+	Empregado() {
+		AddEmpregado();
+	}
 	
 	void SetCod(int cod) {
 		this.cod = cod;
@@ -46,10 +50,6 @@ public class Empregado {
 	
 	double GetSalario() {
 		return this.salario;
-	}
-	
-	Empregado() {
-		AddEmpregado();
 	}
 	
 	void ImprimeEmpregado() {
