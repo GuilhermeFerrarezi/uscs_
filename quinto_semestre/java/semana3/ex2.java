@@ -12,7 +12,7 @@ public class TesteEmpregado {
 		empregados[1].salario = 107000.00;
 		
 		for(int i = 0; i < Empregado.qtd; i++) {
-			System.out.printf("%dº empregado:\n", i);
+			System.out.printf("%dº empregado:\n", i + 1);
 			empregados[i].ImprimeEmpregado();;
 		}
 		Empregado.TotalEmpregados();
