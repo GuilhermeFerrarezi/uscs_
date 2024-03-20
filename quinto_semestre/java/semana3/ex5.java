@@ -51,6 +51,10 @@ public class Empregado {
 	double GetSalario() {
 		return this.salario;
 	}
+
+	static int GetQtd() {
+		return qtd;
+	}
 	
 	void ImprimeEmpregado() {
 		System.out.println("Código do empregado: " + this.cod + "\nNome: " + this.nome + "\ncargo: " + this.cargo + "\nsalário: " + this.salario + "\n");
