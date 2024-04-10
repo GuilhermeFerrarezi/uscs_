@@ -1,0 +1,35 @@
+1. Defina uma classe em Java chamada “Produto” para armazenar as informações de um produto. A classe
+deve armazenar o código do produto, a descrição do produto e a quantidade armazenada. A rotina
+construtora deve receber o código, a descrição e a quantidade. Definir também um construtor default.
+Deve oferecer ainda uma função chamada RetiraEstoque() onde se informe uma certa quantidade a ser
+retirada do estoque e outra chamada AdicionaEstoque() onde se informe uma certa quantidade a ser
+acrescida ao estoque. Definir também uma função chamada ImprimeProduto() que imprime as
+informações do produto e outra chamada ImprimeTotaldeProdutos() que imprime a quantidade de
+produtos criados. Considerar a propriedade do ENCAPSULAMENTO para a classe Produto.
+Para todos os produtos, considerar o valor “LimiteEstoque” = 10. Escrever uma rotina chamada
+StatusEstoque() que imprime as seguintes mensagens:
+a) “Estoque Regular” se a quantidade armazenada for superior ao Limite de Estoque.
+b) “Estoque Restrito” se a quantidade armazenada for inferior ou igual ao Limite de Estoque.
+c) “Estoque Nulo” se a quantidade armazenada for igual a zero.
+Escrever adicionalmente uma função chamada AlteraLimite() que recebe como entrada um novo valor do
+limite de estoque (>0) e o considera como novo limite para todos os produtos.
+Observação: Somente se consegue retirar produtos se o estoque estiver com produtos disponíveis.
+
+2. Escrever uma classe chamada “TesteProduto” que possui um método main() para instanciar produtos.
+a) Criar um objeto referenciado pela variável p1 por meio do construtor com os parâmetros:
+código=1232, desc=Celular Samsung S8, quantidade=30;
+b) Criar um segundo objeto referenciado pela variável p2 por meio do construtor default. Por meio
+de operações de atribuição inicializar o objeto com os seguintes dados: código=3456,
+desc=Monitor Samsung SyncMaster, quantidade=12;
+c) Executar as transações de baixa no estoque de 5 Celulares Samsung S8 e 8 Monitores
+SyncMaster;
+d) Para cada objeto criado, executar as funções que imprimem informações do objeto e o seu
+respectivo status do estoque;
+e) Executar as transações de baixa no estoque de mais 10 Celulares Samsung S8 e mais 12
+Monitores SyncMaster;
+f) Para cada objeto criado, executar as funções que imprimem informações do objeto e o seu
+respectivo status do estoque;
+g) Escrever uma função na classe TesteProduto chamada EntradaValorLimite() que recebe como
+input do usuário o valor do Limite de Estoque e considera este valor para todos os produtos.
+Obs. Limite de Estoque deve ser >= 0. Exercitar esta função com entrada de valores quaisquer
+para os produtos criados.
