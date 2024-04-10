@@ -1,0 +1,27 @@
+1. Construir uma classe para representar uma Pessoa com os seguintes dados: nome, endereço, CPF e RG.
+Considerando encapsulamento de dados, defina os construtores (padrão com passagem de parâmetros e sem
+passagem de parâmetros). Defina uma função chamada ImprimePessoa() que imprima os dados da pessoa.
+
+2. Definir uma classe para representar um Aluno que obviamente é uma pessoa. Considere que o aluno tenha código
+de matrícula, nota P1, nota P2 e uma certa quantidade de faltas. Considerando encapsulamento de dados, defina
+os construtores (padrão com passagem de parâmetros e sem passagem de parâmetros).. Considere também que
+o aluno com mais de 10 faltas está automaticamente reprovado (definir o limite de faltas = 10). A média de
+aprovação do aluno é a média aritmética das provas P1 e P2. Um aluno com média maior ou igual a 7.0 está
+aprovado (definir media_de_aprovacao = 7.0). Média abaixo de 3.0 está reprovado (definir
+media_de_reprovacao =3.0) e média entre 3.0 e 7.0 está de reavaliação (exame). Defina uma função chamada
+ImprimeAluno() para imprimir todos os dados do aluno (inclusive os da classe Pessoa), uma função
+ImprimeFaltas() para imprimir o total de faltas e outra função Resultado() para imprimir se aluno está aprovado,
+reprovado ou em reavaliação (exame).
+3. Definir uma classe chamada TesteAluno() com a função main() e criar uma pessoa de nome “José”, endereço:
+“Rua Antonio Marques, 30”, CPF: “568.234.981-15” e RG: “3.698.222-8”. Imprimir os dados da pessoa. Criar um
+aluno de nome “Pedro”, endereço: “Rua Almeida, 20”, CPF: “456.876.123-12”, RG: “4.687.098-2”, código de
+matrícula: 59751, nota P1 = 4.5, nota P2 = 8.0, total de faltas = 10. Imprimir todos os dados do aluno. Imprimir o
+status do aluno (reprovado, aprovado ou em exame). Criar um outro aluno a partir do aluno anteriormente
+criado, ou seja exatamente com os mesmos atributos de dados. Após a criação do novo aluno, alterar seu nome
+para “Francisco” e suas notas para: Nota P1 = 9.0, Nota P2 = 9.5. Imprimir todos os dados do novo aluno. Imprimir
+o status do novo aluno (reprovado, aprovado ou em exame). Alterar o número de faltas para 11 e imprimir o status
+do novo aluno (aprovado ou reprovado). Alterar as notas do novo aluno para 8.0 e 9.5. Imprimir o status do novo
+aluno (aprovado ou reprovado).
+Observações:
+a) Considerar que todas as classes estão em um único package chamado uscs.
+b) Considerar os conceitos de herança.
