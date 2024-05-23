@@ -1,0 +1,18 @@
+Defina uma interface em Java chamada “FormaGeometrica contendo o método area() que retorna um
+valor double referente à área de uma figura geométrica e o método comprimento() que retorna, também
+em double, o perímetro de uma dada figura geométrica. A interface deve estar contida em um package
+chamado uscs.
+
+2. No mesmo package uscs, defina uma classe em Java chamada “Circulo” que implementa a interface
+“FormaGeometrica”. Nesta classe os métodos a serem implementados pela classe “Circulo” correspondem
+ao cálculo da área de um círculo e o perímetro de um círculo. A classe deverá também ter como atributo
+um valor double correspondente ao raio.
+Dica: A área de um círculo é dada por PI * RAIO * RAIO e o comprimento de um círculo é dado por
+2*PI*RAIO.
+3. No mesmo package uscs, defina uma classe em Java chamada “Quadrado” que implementa a interface
+“FormaGeometrica”. Nesta classe os métodos a serem implementados pela classe “Quadrado”
+correspondem ao cálculo da área de um quadrado e o perímetro de um quadrado. A classe deverá também
+ter como atributo o valor double correspondente ao lado do quadrado.
+4. Implementar um programa de teste que declara duas variáveis do tipo “FormaGeometrica” e instancia dois
+objetos, um do tipo Circulo e um do tipo Quadrado. O programa deverá exibir a área e o comprimento dos
+dois objetos instanciados.
